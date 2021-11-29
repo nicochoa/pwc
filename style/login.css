@@ -1,0 +1,136 @@
+.overall-cont {
+  background: url(https://archello.s3.eu-central-1.amazonaws.com/images/2021/05/07/openbook-architecture-pwc-portugal-offices-archello.1620345930.6537.jpg);
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-cont {
+  background: #cfcfcf;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 40%;
+}
+
+.login-cont button:active,
+.login-cont button:hover {
+  border-bottom: 5px solid  #e0301e;
+}
+
+.login-cont .head-btn {
+  border: none;
+  width: 50%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+#login {
+  display: block;
+}
+
+#login-details {
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+}
+
+#login-details p {
+  font-size: 1.5rem;
+  padding-inline: 1rem;
+}
+
+#login-details label {
+  padding-inline: 1rem;
+  padding-bottom: 1rem;
+}
+
+#login-details input,
+#login-details button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 3rem;
+  border: none;
+}
+
+#login-details input {
+  width: 90%;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+#login-details button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 40%;
+  background: #e0301e;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.modal-panel {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(177, 177, 177, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-window {
+  height: 100%;
+  width: 40%;
+  background: #e0301e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modal-window p {
+  margin-top: 40%;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.modal-window button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 80%;
+  background: none;
+  font-size: 1.3rem;
+  padding-block: .5rem;
+  border: 3px solid #d1c8c8;
+  margin-top: .2rem;
+  color: #fff;
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,71 @@
+.social-media {
+  text-align: center;
+  padding: 2rem;
+  background-color: #2d2d2d;
+}
+
+.social-media p {
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  display: inline;
+  padding-right: 2rem;
+}
+
+.social-media img {
+  height: 2rem;
+  padding: 0 .5rem 0 0;
+}
+
+.about-us-diclosure {
+  background-color: #404041;
+  padding: 4rem 1.5rem 3rem 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-us-diclosure a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+.about-us-diclosure p {
+  color: #fff;
+}
+
+.about-us-diclosure .about-us-links {
+  font-size: 2rem;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3rem;
+}
+
+.about-us-diclosure .about-us-links a:first-child {
+  font-size: 1.4rem;
+  display: block;
+  padding-bottom: 3rem;
+}
+
+.legal-disclosures {
+  padding-block: 1rem;
+}
+
+.legal-disclosures div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.legal-disclosures div p {
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.legal-disclosures div a {
+  font-size: 1.25rem;
+  padding-block: .5rem;
+}
+/*# sourceMappingURL=footer.css.map */

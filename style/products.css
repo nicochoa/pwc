@@ -1,0 +1,113 @@
+.intro-banner {
+  background: #e0301e;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.intro-banner div {
+  background-color: #2d2d2d;
+  height: 30%;
+  color: #fff;
+  padding: 2rem 3rem 3rem 10rem;
+  font-size: 4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  padding: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.text-details {
+  padding: 1rem 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+h3 {
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #646464;
+}
+
+.products-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.product-btns {
+  width: 45%;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #646464;
+  border: 2px solid #646464;
+}
+
+.product-btns a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-decoration: none;
+  color: #646464;
+}
+
+.product-btns button {
+  height: 100%;
+  border: 3px solid #646464;
+  background: transparent;
+}
+
+.bottom-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+
+.bottom-banner div {
+  width: 400px;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bottom-banner div a {
+  text-decoration: none;
+  color: #db536a;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-banner img {
+  width: 40vw;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+/*# sourceMappingURL=products.css.map */

@@ -1,0 +1,83 @@
+.intro-banner{
+    background: #e0301e;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    div{
+    background-color: #2d2d2d;
+    height: 30%;
+    color: #fff;
+    padding: 2rem 3rem 3rem 10rem;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+h2{
+    padding: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 200;
+}
+.text-details{
+    padding: 1rem 2rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+h3{
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #646464;
+}
+.products-cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.product-btns{
+
+    width: 45%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #646464;
+    border: 2px solid #646464;
+    a{
+        align-self: center;
+        text-decoration: none;
+        color: #646464;
+    }
+    button{
+        height: 100%;
+        border: 3px solid #646464;
+        background: transparent;
+    }
+    
+}
+.bottom-banner{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    padding: 2rem;
+    div{
+        width: min(400px);
+        font-size: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        a{
+            text-decoration: none;
+            color: #db536a;
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+    img{
+        width: max(40vw);
+        height: min-content;
+    }
+}

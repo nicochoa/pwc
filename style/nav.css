@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 2rem 1.5rem 2rem;
+  border-bottom: 1px solid rgba(242, 242, 242, 0.85);
+}
+
+#logo {
+  padding-top: 2rem;
+}
+
+.mobile-action-btns {
+  display: none;
+}
+
+nav {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+nav .opt-user {
+  padding-right: 2rem;
+}
+
+nav .opt-user button {
+  font-size: 1.15rem;
+  color: #464646;
+  font-weight: 800;
+  border: none;
+  background-color: transparent;
+}
+
+nav .opt-location button {
+  font-size: 1.15rem;
+  color: #464646;
+  font-weight: 800;
+  border: none;
+  background-color: transparent;
+}
+
+nav .secundary-nav-opt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0 1.2rem 0;
+}
+
+nav .secundary-nav-opt img {
+  height: 20px;
+  width: 20px;
+}
+
+nav .search-menu {
+  padding-left: 4rem;
+  display: inline;
+}
+
+nav .search-menu a::before {
+  content: url(https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/search-icon.svg);
+  padding-right: .5rem;
+  position: relative;
+  top: .4rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #464646;
+  font-size: 1.05rem;
+  text-decoration-thickness: 0;
+}
+
+nav a:hover {
+  -webkit-transition: text-decoration-thickness 3s ease-in-out 2s;
+  transition: text-decoration-thickness 3s ease-in-out 2s;
+  text-decoration: underline;
+  text-decoration-thickness: .4rem;
+  -webkit-text-decoration-color: #464646;
+          text-decoration-color: #464646;
+  text-underline-offset: 1.5rem;
+}
+
+nav .opt-menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+nav .opt-location button::before {
+  content: url(https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/location.svg);
+  padding-right: .5rem;
+  position: relative;
+  top: .3rem;
+}
+
+nav .opt-location button::after {
+  content: url(https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/chevron-dark.svg);
+  position: relative;
+  right: -.3rem;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 1.5rem 2rem ;  
+    border-bottom: 1px solid rgba(242,242,242,0.85);
+}
+#logo{
+    padding-top: 2rem;
+}
+.mobile-action-btns{
+    display: none;
+}
+nav{
+    font-family:  Helvetica, Arial, sans-serif;
+    .opt-user{
+        padding-right: 2rem;
+    }
+    .opt-user button{
+        font-size: 1.15rem;
+        color: #464646;
+        font-weight: 800;
+        border: none;
+        background-color: transparent;        
+    }
+    .opt-location button{
+        font-size: 1.15rem;
+        color: #464646;
+        font-weight: 800;
+        border: none;
+        background-color: transparent;
+    }
+    .secundary-nav-opt{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 1rem 0 1.2rem 0;
+        img{
+            height: 20px;
+            width: 20px;
+        }
+    }
+    .search-menu{
+        padding-left: 4rem;
+        display: inline;
+        a::before{
+            content: url(https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/search-icon.svg);
+            padding-right: .5rem;
+            position: relative;
+            top: .4rem;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #464646;
+        font-size: 1.05rem;
+        text-decoration-thickness: 0;
+        &:hover{
+            transition: text-decoration-thickness 3s ease-in-out 2s;
+            // border-bottom: .4rem solid #464646;
+            text-decoration: underline;
+            text-decoration-thickness: .4rem;
+            text-decoration-color: #464646;
+            text-underline-offset: 1.5rem;
+        }
+    }
+    .opt-menu {
+        display: inline-flex;
+        align-items: center;
+        gap: 1rem;
+        justify-content: flex-start;
+    }
+    .opt-location{
+        button::before{
+            content: url(https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/location.svg);
+            padding-right: .5rem;
+            position: relative;
+            top: .3rem;
+        }
+        button::after{
+            content: url(https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/chevron-dark.svg);
+            position: relative;
+            right: -.3rem;
+        }
+    }
+}
+
+.hide{
+    display: none;
+}

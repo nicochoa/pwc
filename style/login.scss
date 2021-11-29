@@ -1,0 +1,100 @@
+.overall-cont{
+    background: url(https://archello.s3.eu-central-1.amazonaws.com/images/2021/05/07/openbook-architecture-pwc-portugal-offices-archello.1620345930.6537.jpg);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-cont{
+    background: hsl(0, 0%, 81%);
+    height: min-content;
+    width: 40%;
+    button:active,
+    button:hover{
+        border-bottom: 5px solid  #e0301e ;
+       
+    }
+    .head-btn{
+        border: none;
+        width: 50%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        padding: 2rem;
+        
+    }
+}
+#login{
+    display: block;
+}
+#login-details{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    p{
+        font-size: 1.5rem;
+        padding-inline: 1rem;
+    }
+    label{
+        padding-inline: 1rem;
+        padding-bottom: 1rem;
+    }
+    input,
+    button{
+        align-self: center;
+        height: 3rem;
+        border: none;
+    }
+    input{
+        width: 90%;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    button{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 40%;
+        background: #e0301e;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    
+}
+
+.modal-panel{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(177, 177, 177, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-window{
+    height: 100%;
+    width: 40%;
+    background: #e0301e;
+    display: flex;
+    flex-direction: column;
+    p{
+        margin-top: 40%;
+        color: #fff;
+        font-size: 2rem;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+
+    }
+    button{
+        align-self: center;
+        width: 80%;
+        background: none;
+        font-size: 1.3rem;
+        padding-block: .5rem;
+        border: 3px solid #d1c8c8;
+        margin-top: .2rem;
+        color: #fff;
+    }
+}

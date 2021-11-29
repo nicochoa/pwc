@@ -1,0 +1,168 @@
+//screens styling corrections
+
+@media (max-width: 713px) {
+    .feature{
+        button{
+            margin-left: 10rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+
+
+@media (max-width: 915px) {
+    nav{
+        display: none;
+    }
+    .mobile-action-btns{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+        padding-right: 1rem;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        
+        button{
+            height: 50px;
+            width: 50px;
+        }
+        div{
+            
+            .hamburguer{
+                display: block;
+                position: relative;
+            }
+            .hamburguer,
+            .hamburguer::before,
+            .hamburguer::after{
+                width: 2rem;
+                height: 3px;
+                background: #404041;
+                transition: transform 250ms ease-in-out;
+                
+            }
+            .hamburguer::before,
+            .hamburguer::after{
+                content: "";
+                position: absolute;
+                left: 0;
+            }
+            .hamburguer::before{
+                bottom: 7px;
+            }
+            .hamburguer::after{
+                top: 7px;
+                background: #fff;
+            }
+            
+            .open-menu{
+                background: #fff;
+                &.hamburguer{
+                    transform: rotate(45deg);
+                }
+                &.hamburguer::before{
+                    opacity: 0;
+                }
+                &.hamburguer::after{
+                    transform: rotate(90deg) translate(-7px);
+                }
+            }
+        }
+          
+        button:first-child{
+            border: none;
+            background-color: transparent;
+            content: url(https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/search-icon.svg);
+            img{
+                padding: 0 0 0 0 ;
+            }
+        }
+    }
+    .mobile-header {
+      display: grid;
+      position: fixed;
+      z-index: 500;
+      background-color: #404041;
+      height: 100vh;
+      width: 100vw;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: min-content min-content min-content 1fr ;
+      padding: 0 0;
+      img{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        padding: 1rem 2rem 2rem 2rem;
+      }
+    }
+    .mobile{
+        display: contents;
+        .search-menu{
+            display: none;
+        }
+        
+        .opt-menu{
+            grid-column: 1 / 3;
+            grid-row: 2 / 3;
+            // display: contents;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0 0 0.5rem 0;
+            gap: 0;
+            border-top: 2px solid #fff;
+            a{
+                font-size: 1.5rem;
+                color: #fff;
+                padding: 1rem 0 1rem 2rem;
+                width: 100%;
+                &:hover{
+                    background-color: #d93954;
+                }
+            }
+    
+        }
+        .secundary-nav-opt{
+            display: contents;
+        }
+        .opt-user{
+            grid-column: 1 / 3;
+            grid-row: 3 / 4;
+            display: flex;
+            justify-content: center;
+            gap: .5rem;
+            padding: 0;
+            button{
+                color:#fff;
+                width: 45%;
+                padding: 1rem 0 ;
+                margin-top: 2rem;
+            }
+            #sign-in{
+                border: 3px solid #fff;
+
+            }
+            #register{
+                background-color: #d93954;
+            }
+        }
+        .opt-location{
+            grid-column: 1 / 2;
+            grid-row: 4 / 5;
+            display: flex;
+            align-items: flex-end;
+            button{
+                color: #fff;
+            }
+        }
+    }
+    .feature{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 915px){
+    .login-cont{
+        width: min(350px);
+    }
+}
